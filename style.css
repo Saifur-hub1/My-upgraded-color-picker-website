@@ -1,0 +1,21 @@
+.container{
+  background-color: transparent;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+  padding-top: 20px;
+  background-color: lightgray;
+  border-radius: 10px;
+  font-family: Arial;
+}
+
+.copy-message {
+  position: fixed;
+  padding: 10px 10px;
+  background-color: aliceblue;
+  border: 1px solid;
+  top: 52.5%;
+  left: 23%;
+  color: black;
+  border-radius: 10px;
+}

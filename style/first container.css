@@ -1,0 +1,25 @@
+.preview-container{
+  display: flex;
+  column-gap: 100px;
+  align-items: center;
+}
+
+.random-button{
+  padding: 10px 15px;
+  background-color: bisque;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.random-button:active{
+  box-shadow: 2px 2px 5px aliceblue;
+}
+
+.color-preview{
+  height: 150px;
+  width: 400px;
+  background-color: lightcyan;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px rgb(70, 131, 184);
+}

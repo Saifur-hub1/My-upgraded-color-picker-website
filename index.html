@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color Picker from scatch</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style/first container.css">
+    <link rel="stylesheet" href="/style/second container.css">
+    <link rel="stylesheet" href="/style/general container.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="first-container">
+        <hr>
+        <div class="preview-container">
+          <div>
+            <button class="random-button">Random Color</button>
+          </div>
+          <div>
+            <h4>Color Preview</h4>
+            <div class="color-preview" id="color-preview"></div>
+          </div>
+          
+        </div>
+
+      </div>
+      <div class="second-container">
+        <!--Copy Function-->
+        <div class="copy-section">
+          <h4 style="color: blue;">Choose the copy mode first: </h4>
+          <div class="copy-option">
+            <div>
+              <input type="radio" id="hex-option" name="copy-option" value="hex" checked>
+              <label for="hex-option">HEX</label>
+            </div>
+            <div>
+              <input type="radio" id="rgb-option" name="copy-option" value="rgb">
+              <label for="rgb-option">RGB</label>
+            </div>
+          </div>
+          <button class="copy-button">Copy to Clipboard </button>
+        </div>
+
+        <!--Showing outup and taking input-->
+        <div class="color-code-option">
+          <div class="code-option">
+            <h4 style="margin-bottom: 5px;">HEX</h4>
+            <div style="display: flex;">
+              <div class="hash-icon">#</div>
+              <input class="input-hex" id="input-hexid" placeholder="FFFFFF">
+            </div>
+          </div>
+          <div class="code-option">
+            <h4 style="margin-bottom: 5px;">RGB</h4>
+    
+            <input class="input-rgb" id="input-rgbid" placeholder="RGB(255,255,255)">
+          </div>
+        </div>
+
+        <!--Adjusting RGB Color-->
+        <div>
+          <h4>Adjust RGB Color :</h4>
+          <div class="rgb-slider-container">
+            <div class="red-box-slider">
+              <div class="rgb-meta-data" style="color: red;">
+                <div>Red</div>
+                <div class="red-value">100</div>
+              </div>
+              <input type="range" min="0" max="255" value="100" id="red-slider" class="red-slider">
+            </div>
+            <div class="green-box-slider">
+              <div class="rgb-meta-data" style="color: green;">
+                <div>Green</div>
+                <div class="green-value">100</div>
+              </div>
+              <input type="range" min="0" max="255" value="100" id="green-slider" class="green-slider">
+            </div>
+            <div class="blue-box-slider">
+              <div class="rgb-meta-data" style="color: blue;">
+                <div>Blue</div>
+                <div class="blue-value">100</div>
+              </div>
+              <input type="range" min="0" max="255" value="100" id="blue-slider" class="blue-slider">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+.copy-section{
+
+}
+
+.copy-option{
+  display: flex;
+  column-gap: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.copy-button{
+  padding: 10px 15px;
+  background-color: bisque;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.color-code-option{
+  display: flex;
+  column-gap: 20px;
+}
+.rgb-slider-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.rgb-meta-data{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.red-box-slider{
+  box-shadow: 2px 2px 10px red;
+  border-radius: 20px;
+  padding: 20px 20px 10px 10px;
+
+}
+.green-box-slider{
+  box-shadow: 2px 2px 10px green;
+  border-radius: 20px;
+  padding: 20px 20px 10px 10px;
+
+}
+.blue-box-slider{
+  box-shadow: 2px 2px 10px blue;
+  border-radius: 20px;
+  padding: 20px 20px 10px 10px;
+}
+.input-hex{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+.input-hex:focus{
+  outline: none;
+}
+.hash-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 8px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(173, 167, 167);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.input-rgb{
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid;
+  font-size: 20px;
+}
+.input-rgb:focus{
+  outline: none;
+}
